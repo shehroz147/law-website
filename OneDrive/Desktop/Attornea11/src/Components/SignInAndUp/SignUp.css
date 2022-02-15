@@ -1,0 +1,258 @@
+.signupbox{
+    background-color:rgb(245, 245, 245) ;
+    margin-top: 150px;
+    width: 90%;
+    padding: 100px;
+    border-radius: 15px;
+    box-shadow: 10px 10px rgb(197, 189, 189);
+}
+.formsignup{
+    margin-left: 350px;
+
+}
+.formsignup .textfield {
+    margin-top: 20px;
+}
+.signupBtn{
+    margin-top: 100px;
+    background-color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: blue;
+    font-size: 30px;
+}
+
+.App {
+    background-image: url('../pictures/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .Signinbox {
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+  
+  }
+  
+  .container .form-1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-top: 300px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 80%;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3);
+  }
+  .form-group{
+    margin-top: 30px;
+  }
+  .form-1 h1 {
+    text-align: center;
+    margin-top: 2.7rem;
+    font-size: 40px;
+    font-weight: 800;
+    color: #ee5645;
+    margin-bottom: 1.5rem;
+  }
+  .form-1 p{
+    font-size: 25px;
+    color: gray;
+  }
+  
+  .input {
+    border: none;
+    outline: none;
+    border: 0.5px solid;
+    background: none;
+    padding: 10px;
+    padding-right: 150px;
+    margin: 0.9rem 2rem;
+    font-size: 1rem;
+  }
+  
+  input[type="password"]::placeholder{
+    color: grey;
+  }
+  input[type="email"]::placeholder{
+    color: grey;
+  }
+  label {
+    margin: 0 2rem;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .forgot {
+    margin: 0 2rem;
+    color: grey;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .col{
+    max-width: 500px;
+    margin-top: 50px;
+  }
+  .googlebtn{
+    color: black;
+    font-size: 20px; 
+    padding: 10px;
+    padding-right: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border: 0.5px solid rgb(92, 89, 89);
+  }
+  .facebookbtn{
+    color: black;
+    font-size: 20px; 
+    padding: 10px;
+    padding-right: 84px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border: 0.5px solid rgb(92, 89, 89);
+  }
+  .googlebtn i{
+    margin-right: 30px;
+    color: rgb(122, 122, 36);
+  }
+  .facebookbtn i{
+    margin-right: 30px;
+    color: rgb(122, 122, 36);
+  }
+  hr{
+    margin-left: 10px;
+  }
+  .emailbtn{
+    font-size: 20px; 
+    padding: 10px;
+    padding-right: 84px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 25px;
+    padding-left: 10px;
+  }
+  .loginbtn{
+    background-color: skyblue;
+    margin-left: 130px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    color: white;
+  }
+  .loginbtn:hover{
+    background-color: rgb(40, 156, 202);
+  }
+  .emailbtn:hover{
+    background-color: rgb(209, 200, 200);
+  }
+  .col p{
+    font-size: 15px;
+  }
+  .col h2{
+    font-size: 25px;
+    color: rgb(48, 45, 45);
+  }
+  .col2{
+    border: 0.2px solid rgb(129, 129, 129);
+    height: 400px;
+  }
+  .footer2{
+      /* display: flex; */
+      margin-top: 200px;
+      background-color: rgb(109, 52, 52);
+  }
+  .footer2 ul{
+    margin: 10px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+  }
+  .footer2 p{
+    color: rgb(109, 105, 105);
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .footer2 ul li{
+    margin-left: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    color: white;
+  }
+  .footer2 ul li:hover{
+    text-decoration: underline;
+  }
+  .icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-top: 0.5rem;
+  }
+  
+  .icons a {
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0.2rem;
+  }
+  
+  .icons .fa-facebook-f {
+    border-radius: 50%;
+    background: #5d75ab;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .icons .fa-twitter {
+    border-radius: 50%;
+    background: #1da1f2;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .icons .fa-google {
+    border-radius: 50%;
+    background: #ee5645;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  /* ....///Media query///..... */
+  
+  @media (max-width: 501px) {
+    html {
+      font-size: 15px;
+    }
+  
+    .container .form-1 {
+      width: 300px;
+    }
+  }
+  
+  @media (min-width: 501px) and (max-width: 768px) {
+    html {
+      font-size: 14px;
+    }
+  
+    .container .form-1 {
+      width: 450px;
+    }
+  }
+  
+  @media (min-width: 765px) and (max-width: 1200px) {
+   
+  
+    .container .form-1 {
+      width: 540px;
+      height: 550px;
+    }
+  }
+  
+  @media (orientation: landscape) and (max-height: 500px) {
+    .container {
+      height: 100vmax;
+    }
+  }
+  
